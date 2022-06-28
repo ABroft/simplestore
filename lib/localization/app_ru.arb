@@ -1,0 +1,19 @@
+{
+  "@@locale": "ru",
+
+  "logoTitle": "Сделай жизнь проще",
+  "authorization": "Авторизация",
+  "emailHint": "Введите еmail",
+  "paroleHint": "Введите пароль",
+  "validateEmail": "Введите правильный Email адрес",
+  "validateParole": "Введите пароль",
+  "enter": "Войти",
+  "catalog": "Каталог",
+  "wishSwish": "Wish Swish",
+  "noConnection": "Нет подключения",
+  "total":  "Итого",
+  "pay": "Оплатить",
+  "emptyBasket": "Корзина пуста",
+  "history": "История покупок",
+  "orderNumber": "Заказ"
+}
