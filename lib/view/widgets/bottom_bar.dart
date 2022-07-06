@@ -12,7 +12,7 @@ class BottomBar extends StatelessWidget {
       child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
         IconButton(
             onPressed: () {
-              if (index != 0) Navigator.pushNamed(context, '/catalog');
+              if (index != 0) Navigator.pushReplacementNamed(context, '/catalog');
             },
             icon: SvgPicture.asset(
               'assets/home.svg',
@@ -22,7 +22,7 @@ class BottomBar extends StatelessWidget {
             )),
         IconButton(
             onPressed: () {
-              if (index != 1) Navigator.pushNamed(context, '/basket');
+              if (index != 1) Navigator.pushReplacementNamed(context, '/basket');
             },
             icon: SvgPicture.asset('assets/shopping-bag.svg',
                 width: 24,
@@ -30,7 +30,7 @@ class BottomBar extends StatelessWidget {
                 color: (index == 1) ? theme.colorScheme.primary : null)),
         IconButton(
             onPressed: () {
-               if (index != 2) Navigator.pushNamed(context, '/user');
+               if (index != 2) Navigator.pushReplacementNamed(context, '/user');
             },
             icon: SvgPicture.asset('assets/user.svg',
                 width: 24,
